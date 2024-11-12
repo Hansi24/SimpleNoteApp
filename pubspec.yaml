@@ -1,0 +1,42 @@
+name: cw1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.4.0
+  path: ^1.9.0
+  # Added intl dependency for date and time formatting
+  intl: ^0.17.0
+
+  # Cupertino icons for iOS style icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting package for coding best practices
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  # Ensuring Material Icons are included
+  uses-material-design: true
+
+  # Custom fonts can be added here if needed, example provided below
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+
+  # You can add your assets such as images, fonts, etc.
+  assets:
+     - assets/book.png
+  #   - images/a_dot_ham.jpeg
